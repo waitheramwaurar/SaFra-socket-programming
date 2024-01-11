@@ -1,0 +1,9 @@
+[Unit]
+Description=Script to run the server service
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/env python3 server.py
+
+[Install]
+WantedBy=default.target
